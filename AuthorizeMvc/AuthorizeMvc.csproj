@@ -1,0 +1,151 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="bower.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.1.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="wwwroot\css\" />
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bower.json" />
+    <None Include="wwwroot\lib\font-awesome\.gitignore" />
+    <None Include="wwwroot\lib\font-awesome\.npmignore" />
+    <None Include="wwwroot\lib\font-awesome\css\font-awesome.css.map" />
+    <None Include="wwwroot\lib\font-awesome\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\lib\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\lib\font-awesome\less\animated.less" />
+    <None Include="wwwroot\lib\font-awesome\less\bordered-pulled.less" />
+    <None Include="wwwroot\lib\font-awesome\less\core.less" />
+    <None Include="wwwroot\lib\font-awesome\less\fixed-width.less" />
+    <None Include="wwwroot\lib\font-awesome\less\font-awesome.less" />
+    <None Include="wwwroot\lib\font-awesome\less\icons.less" />
+    <None Include="wwwroot\lib\font-awesome\less\larger.less" />
+    <None Include="wwwroot\lib\font-awesome\less\list.less" />
+    <None Include="wwwroot\lib\font-awesome\less\mixins.less" />
+    <None Include="wwwroot\lib\font-awesome\less\path.less" />
+    <None Include="wwwroot\lib\font-awesome\less\rotated-flipped.less" />
+    <None Include="wwwroot\lib\font-awesome\less\screen-reader.less" />
+    <None Include="wwwroot\lib\font-awesome\less\stacked.less" />
+    <None Include="wwwroot\lib\font-awesome\less\variables.less" />
+    <None Include="wwwroot\lib\font-awesome\scss\font-awesome.scss" />
+    <None Include="wwwroot\lib\font-awesome\scss\_animated.scss" />
+    <None Include="wwwroot\lib\font-awesome\scss\_bordered-pulled.scss" />
+    <None Include="wwwroot\lib\font-awesome\scss\_core.scss" />
+    <None Include="wwwroot\lib\font-awesome\scss\_fixed-width.scss" />
+    <None Include="wwwroot\lib\font-awesome\scss\_icons.scss" />
+    <None Include="wwwroot\lib\font-awesome\scss\_larger.scss" />
+    <None Include="wwwroot\lib\font-awesome\scss\_list.scss" />
+    <None Include="wwwroot\lib\font-awesome\scss\_mixins.scss" />
+    <None Include="wwwroot\lib\font-awesome\scss\_path.scss" />
+    <None Include="wwwroot\lib\font-awesome\scss\_rotated-flipped.scss" />
+    <None Include="wwwroot\lib\font-awesome\scss\_screen-reader.scss" />
+    <None Include="wwwroot\lib\font-awesome\scss\_stacked.scss" />
+    <None Include="wwwroot\lib\font-awesome\scss\_variables.scss" />
+    <None Include="wwwroot\lib\iCheck\icheck.js" />
+    <None Include="wwwroot\lib\iCheck\icheck.min.js" />
+    <None Include="wwwroot\lib\jquery.cookie\src\jquery.cookie.js" />
+    <None Include="wwwroot\lib\jstree\dist\jstree.js" />
+    <None Include="wwwroot\lib\jstree\dist\jstree.min.js" />
+    <None Include="wwwroot\lib\jstree\LICENSE-MIT" />
+    <None Include="wwwroot\lib\jstree\src\intro.js" />
+    <None Include="wwwroot\lib\jstree\src\jstree.changed.js" />
+    <None Include="wwwroot\lib\jstree\src\jstree.checkbox.js" />
+    <None Include="wwwroot\lib\jstree\src\jstree.conditionalselect.js" />
+    <None Include="wwwroot\lib\jstree\src\jstree.contextmenu.js" />
+    <None Include="wwwroot\lib\jstree\src\jstree.dnd.js" />
+    <None Include="wwwroot\lib\jstree\src\jstree.js" />
+    <None Include="wwwroot\lib\jstree\src\jstree.massload.js" />
+    <None Include="wwwroot\lib\jstree\src\jstree.search.js" />
+    <None Include="wwwroot\lib\jstree\src\jstree.sort.js" />
+    <None Include="wwwroot\lib\jstree\src\jstree.state.js" />
+    <None Include="wwwroot\lib\jstree\src\jstree.types.js" />
+    <None Include="wwwroot\lib\jstree\src\jstree.unique.js" />
+    <None Include="wwwroot\lib\jstree\src\jstree.wholerow.js" />
+    <None Include="wwwroot\lib\jstree\src\misc.js" />
+    <None Include="wwwroot\lib\jstree\src\outro.js" />
+    <None Include="wwwroot\lib\jstree\src\sample.js" />
+    <None Include="wwwroot\lib\jstree\src\themes\base.less" />
+    <None Include="wwwroot\lib\jstree\src\themes\default-dark\style.less" />
+    <None Include="wwwroot\lib\jstree\src\themes\default\style.less" />
+    <None Include="wwwroot\lib\jstree\src\themes\main.less" />
+    <None Include="wwwroot\lib\jstree\src\themes\mixins.less" />
+    <None Include="wwwroot\lib\jstree\src\themes\responsive.less" />
+    <None Include="wwwroot\lib\jstree\src\vakata-jstree.js" />
+    <None Include="wwwroot\lib\layer\CHANGELOG.md" />
+    <None Include="wwwroot\lib\layer\GruntFile.js" />
+    <None Include="wwwroot\lib\layer\layer.js" />
+    <None Include="wwwroot\lib\layer\LICENSE" />
+    <None Include="wwwroot\lib\layer\mobile\layer.js" />
+    <None Include="wwwroot\lib\layer\mobile\README.md" />
+    <None Include="wwwroot\lib\layer\README.md" />
+    <None Include="wwwroot\lib\layer\src\layer.js" />
+    <None Include="wwwroot\lib\layer\src\mobile\layer.js" />
+    <None Include="wwwroot\lib\layer\src\mobile\README.md" />
+    <None Include="wwwroot\lib\layer\src\README.md" />
+    <None Include="wwwroot\lib\select2\LICENSE" />
+    <None Include="wwwroot\lib\select2\README.md" />
+    <None Include="wwwroot\lib\select2\select2.js" />
+    <None Include="wwwroot\lib\select2\select2.min.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_ar.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_az.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_bg.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_ca.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_cs.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_da.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_de.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_el.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_en.js.template" />
+    <None Include="wwwroot\lib\select2\select2_locale_es.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_et.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_eu.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_fa.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_fi.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_fr.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_gl.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_he.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_hr.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_hu.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_id.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_is.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_it.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_ja.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_ka.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_ko.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_lt.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_lv.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_mk.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_ms.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_nl.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_no.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_pl.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_pt-BR.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_pt-PT.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_ro.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_rs.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_ru.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_sk.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_sv.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_th.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_tr.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_ug-CN.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_uk.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_vi.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_zh-CN.js" />
+    <None Include="wwwroot\lib\select2\select2_locale_zh-TW.js" />
+  </ItemGroup>
+
+</Project>
